@@ -36,43 +36,42 @@ To run the model, use the following commands in your terminal:
   ```bash
   python neural_hmm.py
 For the PyTorch version:
+```bash
 python pytorch_hmm.py
-Required Libraries
+```
+## Required Libraries
 Install the following Python libraries using pip:
+- NumPy
+- Matplotlib
 
-NumPy
-Matplotlib
 For the PyTorch version, visit the PyTorch website and follow these steps:
-
-Select the stable build.
-Choose your operating system.
-Choose the Pip package.
-Select the appropriate Python version.
-For NVIDIA GPUs, choose the latest CUDA version (e.g., CUDA 12.4). For CPU-only systems, select the CPU option.
+1. Select the stable build.
+2. Choose your operating system.
+3. Choose the Pip package.
+4. Select the appropriate Python version.
+Note: For NVIDIA GPUs, choose the latest CUDA version (e.g., CUDA 12.4). For CPU-only systems, select the CPU option.
 Copy the generated pip3 installation command and run it in your terminal.
 
-Training Details
+# Training Details
 
-Training the Model
+## Training the Model
 During training, every ~10,000 epochs, a visualization window will appear. This window displays the model's progress using colored squares. The window remains open for 5 seconds before disappearing.
 
 You can customize the training parameters:
-
 Epochs: Feel free to increase beyond 10,000. For example, 29,000,000 epochs with a batch size of 32 is feasible.
 Performance: 10,000 epochs are completed in approximately 1 minute.
 Checkpoint Size: Checkpoints are very small (around 1036 bytes).
 Recommendations
 Use the neural_hmm.py script for reliable results.
 The PyTorch version is experimental and may require modifications for stable inference.
-Future Updates
 
+# Future Updates
 I plan to release future versions of the model with the following improvements:
+- Fixed checkpointing system.
+- Inference via a separate script.
+- Additional adjustable parameters.
 
-A fixed checkpointing system.
-Inference via a separate script.
-Additional adjustable parameters.
-Feedback
-
+# Feedback
 I would greatly appreciate your feedback and ideas for improvement. While it's not mandatory, any suggestions will help make the model better.
 
 Thank you for your time, and enjoy working with NeuralHMM!
