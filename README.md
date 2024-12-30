@@ -67,10 +67,12 @@ Use the neural_hmm.py script for reliable results.
 The PyTorch version is experimental and may require modifications for stable inference.
 
 ## Future Updates
-I plan to release future versions of the model with the following improvements:
-- Fixed checkpointing system.
+I plan to release future versions of the model with the following improvements:  
+- A fixed checkpointing system.
 - Inference via a separate script.
 - Additional adjustable parameters.
+
+> **🔴 IMPORTANT: These updates apply ONLY to the C++ version available in the `main` branch.**  
 
 ## Feedback
 I would greatly appreciate your feedback and ideas for improvement. While it's not mandatory, any suggestions will help make the model better.
