@@ -35,10 +35,10 @@ To run the model, use the following commands in your terminal:
 - For the NumPy version:  
   ```bash
   python neural_hmm.py
-For the PyTorch version:
-```bash
-python pytorch_hmm.py
-```
+- For the PyTorch version:
+  ```bash
+  python pytorch_hmm.py
+  ```
 ## Required Libraries
 Install the following Python libraries using pip:
 - NumPy
