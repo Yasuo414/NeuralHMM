@@ -1,4 +1,4 @@
-# NeuralHMM Documentation
+# NeuralHMM
 
 ## Overview
 
@@ -52,9 +52,9 @@ For the PyTorch version, visit the PyTorch website and follow these steps:
 Note: For NVIDIA GPUs, choose the latest CUDA version (e.g., CUDA 12.4). For CPU-only systems, select the CPU option.<br>
 Copy the generated pip3 installation command and run it in your terminal.
 
-# Training Details
+## Training Details
 
-## Training the Model
+### Training the Model
 During training, every ~10,000 epochs, a visualization window will appear. This window displays the model's progress using colored squares. The window remains open for 5 seconds before disappearing.
 
 You can customize the training parameters:
@@ -62,17 +62,17 @@ You can customize the training parameters:
 - Performance: 10,000 epochs are completed in approximately 1 minute.
 - Checkpoint Size: Checkpoints are very small (around 1036 bytes).
 
-# Recommendations
+## Recommendations
 Use the neural_hmm.py script for reliable results.
 The PyTorch version is experimental and may require modifications for stable inference.
 
-# Future Updates
+## Future Updates
 I plan to release future versions of the model with the following improvements:
 - Fixed checkpointing system.
 - Inference via a separate script.
 - Additional adjustable parameters.
 
-# Feedback
+## Feedback
 I would greatly appreciate your feedback and ideas for improvement. While it's not mandatory, any suggestions will help make the model better.
 
 Thank you for your time, and enjoy working with NeuralHMM!
