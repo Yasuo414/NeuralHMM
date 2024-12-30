@@ -18,9 +18,9 @@ This file contains the entire HMM model implemented from scratch using the NumPy
 
 ### `pytorch_hmm.py`
 This is a modified version of the model, fully compatible with the PyTorch library. However, this version is less stable due to checkpointing issues during inference. While training is successful, inference may throw errors, such as:
-
+```bash
 C:\Users%username%\HMMPrediction\pytorch_hmm.py:278: FutureWarning: You are using torch.load with weights_only=False... AttributeError: 'collections.OrderedDict' object has no attribute 'predict_from_prompt'
-
+```
 
 For this reason, I **recommend using `neural_hmm.py`** unless you specifically need PyTorch compatibility.
 
